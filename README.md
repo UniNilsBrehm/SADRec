@@ -22,7 +22,7 @@ Then install all packages:
 
 Finally, copy this repository to your hard drive. Navigate to the directory using your favorite terminal and run:
 
-    python RecordingApp.py
+    python sadrec.py
 
 ## Features
 - Live View - Audio Monitor  
