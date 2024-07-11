@@ -1,0 +1,10 @@
+# run: conda env create -f conda_env.yml
+name: sadrec
+dependencies:
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - PyQt6
+    - pyqtgraph
+    - pyaudio
