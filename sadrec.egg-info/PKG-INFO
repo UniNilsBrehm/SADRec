@@ -1,3 +1,21 @@
+Metadata-Version: 2.4
+Name: sadrec
+Version: 0.1.0
+Summary: Simple Soundcard Recorder
+Author-email: Nils <your.email@example.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt6
+Requires-Dist: pyqtgraph
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: pyaudio
+Requires-Dist: wave
+Dynamic: license-file
+
 # Soundcard ADC Recoder (SADRec)
 
 The  **SADRec** is a lightweight Python app for viewing and recording any signals connected to your soundcard microphone input. 

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+sadrec/__init__.py
+sadrec/main.py
+sadrec.egg-info/PKG-INFO
+sadrec.egg-info/SOURCES.txt
+sadrec.egg-info/dependency_links.txt
+sadrec.egg-info/entry_points.txt
+sadrec.egg-info/requires.txt
+sadrec.egg-info/top_level.txt

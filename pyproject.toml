@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sadrec"
+version = "0.1.0"
+description = "Simple Soundcard Recorder"
+authors = [
+    { name="Nils", email="your.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+
+dependencies = [
+    "PyQt6",
+    "pyqtgraph",
+    "numpy",
+    "pandas",
+    "scipy",
+    "pyaudio",
+    "wave"
+]
+
+[project.scripts]
+sadrec = "sadrec.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sadrec*"]
