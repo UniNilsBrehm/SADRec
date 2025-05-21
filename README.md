@@ -37,14 +37,17 @@ Open your terminal and run:
 ## Navigation
 There are several handy keyboard shortcuts for navigation:
 
-Press "M" to mute and unmute audio monitor  
-Press "R" to start and stop recording
-Press "B" to reset the view
-Press "C" to center the view (y-axis)
-Press "T" and "Shift+T" to zoom the x-axis
-Press "X" and "Shift+X" to zoom the y-axis
-Press "Left" and "Right" to move along the x-axis
-Press "Up" and "Down" to move along the y-axis
+"M" to mute and unmute audio monitor  
+"R" to start and stop recording  
+"B" to reset the view  
+"C" to center the view (y-axis)  
+"T" and "Shift+T" to zoom the x-axis  
+"X" and "Shift+X" to zoom the y-axis  
+"Left" and "Right" to move along the x-axis  
+"Up" and "Down" to move along the y-axis  
+
+
+![Alt text](./images/sadrec_gui.png "GUI at start up")
 
 
 ----------
