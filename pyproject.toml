@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sadrec"
+version = "0.1.0"
+authors = [{ name = "Nils", email = "you@example.com" }]
+description = "Light-weight electrophysiology audio recorder with live plotting and spike detection"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pyqtgraph",
+    "PyQt6",
+    "pyaudio",
+    "soundfile"
+]
+
+[project.urls]
+Source = "https://github.com/UniNilsBrehm/sadrec"
+Docs   = "https://github.com/UniNilsBrehm/sadrec#readme"
+
+[project.scripts]          # console-script entry point
+sadrec = "sadrec.main:main"
